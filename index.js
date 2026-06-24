@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", async (req, res) => {
   const token = process.env.CLASH_API_TOKEN;
-  const clanTag = "%23YOURCLANTAG"; // Replace with your clan tag
+  const clanTag = "%239JRJCL8Q"; // Replace with your clan tag
   const url = `https://api.clashroyale.com/v1/clans/${clanTag}`;
 
   const response = await fetch(url, {
